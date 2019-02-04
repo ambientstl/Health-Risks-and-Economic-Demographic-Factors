@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Health Risks and Economic/Demographic Factors</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Health Risks and Economic/Demographic Factors</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Between Health Risks and Income, Age</h2>
+          <p>Poverty rate and median income exhibit clear and contrasting correlations with healthcare coverage, obesity, and smoking.  
+            States with a higher poverty rate display higher rates of obesity and smoking, as well as lower rates of healthcare coverage.  
+            In states with higher median incomes, the opposite is seen: rates of obesity and smoking are lower, and a higher percentage of the population has healthcare coverage.  
+          </p>
+
+          <p>The relationship between age and health risks is more complicated.  
+            Most states' median ages are between thirty-six and forty, clustering states more closely and making correlations more difficult to perceive.  
+            Nonetheless, there appear to be slight correlations between age and health risks.  
+            On the positive side, states with a higher median age show higher rates of healthcare coverage.  
+            Conversely, states with a higher median age also display higher rates of obesity and smoking.  
+          </p>
+
+          <p>These relationships do not seem out of the ordinary.  
+            People in a state with a higher median income or lower poverty rate are likely more able to afford healthcare coverage.  
+            People in states with lower median incomes and higher poverty rates are more likely to experience the stresses of poverty and turn to unhealthy, quick-fix coping mechanisms like over-eating and smoking.  
+            Healthy lifestyles that avoid smoking and over-eating are often more expensive to adopt and maintain.  
+          </p>
+          <p>Additionally, healthier lifestyles appear to be more popular among younger people, as information about the dangers of smoking and over-eating become more available and accepted over time.  
+            It is not surprising, therefore, that states with a lower median age exhibit lower rates of smoking and obesity.  
+            Similarly, healthcare coverage seems more likely as one ages and likely experiences more health problems as well as more opportunities for healthcare coverage through a career or Medicare.  
+            These two factors partly explain the divergent relationships between median age and health risks, where, unlike poverty rate, age correlates with increased rates for not only smoking and obesity, but also healthcare coverage.  
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Martin Carriel&copy;2019</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
